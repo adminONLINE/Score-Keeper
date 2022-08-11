@@ -13,8 +13,10 @@ let p2Score = 0;
 let WinCon = 5;
 let GameOver = false;
 
-p1gif.src = "player1.gif"
-p2gif.src = "player2.gif"
+p1gif.src = "player1.gif";
+p1gif.className = "img-thumbnail";
+p2gif.src = "player2.gif";
+p2gif.className = "img-thumbnail";
 
 
 
